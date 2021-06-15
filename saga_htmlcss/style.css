@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+html{
+	font-size: 100%;
+}
+body{
+	font-family: 'Lora', serif;
+	line-height: 1.7;
+	color: #ff006f;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.wrapper{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+
+.big-bg{
+	background-size:cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.page-title{
+	font-size: 5rem;
+	font-family: 'slabo',serif;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.button{
+	font-size: 1.375rem;
+	background: #702c91; 
+	color:#fff200;
+	border-radius: 5px;
+	padding: 18px 32px;
+}
+.page-header{
+	display:flex;
+	justify-content: space-between;
+    background-color: black;
+}
+	
+
+.logo{
+	width: 210px
+	margin-top: 14px;
+}
+.main-nav{
+	display: flex;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	margin-top: 34px;
+	list-style-type: none;
+}
+
+.main-nav li {
+	margin-left: 36px;
+}
+.main-nav a {
+	color:  #ff006f;
+}
+.main-nav a:hover {
+	color: red;
+}
+
+#home{
+	background-image: url(image/home.jpg);
+    min-height: 100vh;
+}
+#home .page-title{
+	text-transform: none;
+}
+
+.home-content {
+	text-align: center;
+	margin-top: 49%;
+}
+.home-content p {
+	font-size: 1.5rem;
+	margin: 10px 0 42px;
+}
+.div{
+
+}
+
+/* COMPANY 
+------------------*/
+
+#comp{
+    background-color: black;
+    height: 270px;
+    margin-bottom: 40px;
+}
+#comp .page-title{
+    text-align: center;
+    margin-top: center;
+}
+
+.comp-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.post-info {
+	position: relative;
+	padding-top: 4px;
+	margin-bottom: 40px;
+}
+
+.post-title {
+	font-family: "Yu Mincho", "YuMincho", serif;
+	font-size: 2rem;
+	font-weight: normal;
+
+}
+
+.sub-title {
+	font-size: 1.375rem;
+	padding: 0 8px 8px;
+	border-bottom: 2px #ff006f solid;
+	font-weight: normal;
+}
+article h2 {
+	font-family: 'Lora', serif;
+	color: #ff006f;
+}
+article p{
+	font-family: 'Lora', serif;
+	color: #ff006f;
+
+}
+aside {
+	background-color: black;
+	padding-right: 20px;
+}
+
+aside p {
+	padding: 12px 10px;
+}
+aside h2{
+	font-family: 'Lora', serif;
+	color: #ff006f;ck;
+	}
+
+.sub-menu {
+	margin-bottom: 60px;
+	list-style: none;
+}
+
+.sub-menu li {
+	border-bottom: 1px  solid;
+}
+
+.sub-menu a {
+	color: #ff006f;
+	padding: 10px;
+	display: block;
+}
+
+.sub-menu a:hover 
+	color: #ff006f;
+}
+
+aside p {
+	padding: 12px 10px;
+}
+/* NIGHT TOUR
+------------------------- */
+#night{
+    background-image: black;
+    min-height: 100vh;
+}
+.night-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.night-content .page-title{
+    text-align: center;
+}
+.night-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+/* TEMPLE TOUR
+-----------------*/
+#temple{
+    background-image: black;
+    min-height: 100vh;
+}
+.temple-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.temple-content .page-title{
+    text-align: center;
+}
+.temple-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+/* ＨＥＡＶＥＮ
+-------------------*/
+#heaven{
+    background-image: black;
+    min-height: 100vh;
+}
+.heaven-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.heaven-content .page-title{
+    text-align: center;
+}
+.heaven-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+#border-top-right-radius: {
+    background-image: black;
+    min-height: 100vh;
+}
+.tours-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.tours-content .page-title{
+    text-align: center;
+}
+.tours-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+.tours table {
+	text-align: center;
+}
+#aboutus{
+	background-image: ;
+    min-height: 100vh;
+}
+#aboutus .page-title{
+	text-transform: none;
+}
+
+.aboutus-content {
+	text-align: center;
+	margin-top: 49%;
+}
+.aboutus-content p {
+	font-size: 1.5rem;
+	margin: 10px 0 42px;
+}
+    /*CONTACTus
+    ----------------*/
+    
+#contact{
+    background-image: url(image/nightview.jpg);
+    min-height: 100vh;
+    }
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+#location{
+    padding: 4% 0;
+}
+#location .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.location-info{
+    width: 22%
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map{
+     width: 74%;   
+    }
+ifreme{
+    width:100%;
+}
+
+ .kaisha {
+width: 100%;
+}
+
+.kaisha th,
+.kaisha td {
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.kaisha th {
+font-weight: bold;
+background-color: ; 
+}
+
+@media screen and (max-width: 767px) {
+.kaisha,
+.kaisha tr,
+.kaisha td,
+.kaisha th {display:block;}
+.kaisha th {width:auto;}
+}
+/* フッター
+------------------*/
+footer{
+    background: black;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p {
+    color: #ff006f;
+    font-size: 1.375rem;
+}
+@media (max-width: 600px){
+    .page-title{
+        font-size:2.5rem;
+}
+    .main-nav{
+        font-size: 1rem;
+}
+    .main-nav li {
+        margin: 0 20px;
+}
+    .home-content{
+        margin-top: 20%;
+}
+    .page-header{
+        flex-direction: column;
+        align-items: center;
+}
+    .company-contens{
+        flex-direction: column;
+}
+    
